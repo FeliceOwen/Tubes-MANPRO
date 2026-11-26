@@ -348,7 +348,7 @@ body{background:#f1f5f9;min-height:100vh;display:flex;flex-direction:column}
         </div>
         <div class="atur-body">
             <div class="atur-row">
-            <span>Atur semester yang akan berlangsung</span>
+            <span>Atur semester yang berlangsung</span>
             </div>
                 <form action="" method="POST">
                 <input type="hidden" name="id_sem" value="<?= htmlspecialchars($id_sem) ?>">
@@ -377,7 +377,6 @@ body{background:#f1f5f9;min-height:100vh;display:flex;flex-direction:column}
                 </script>
         </div>
         </div>
-
         <div class="tambah-card">
         <div class="tambah-banner">
             <div class="tambah-lbl">Tambah Mata Kuliah</div>
