@@ -38,7 +38,7 @@ if ($role != "dosen") {
 }
 
 
-//jadwa keseluruhan semester ini
+//jadwa keseluruhan semester ini, untuk semua dosen dan semua mata kuliah
 $stmt = $conn->prepare("
     SELECT mk.Id_MK, mk.Nama AS NamaMK, mk.SKS, do.Nama AS NamaDosen
     FROM MataKuliah AS mk 
